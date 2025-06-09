@@ -28,6 +28,9 @@ namespace Azunt.IncidentManagement
         {
             var columnsToEnsure = new Dictionary<string, string>
             {
+                { "SecondaryOperatorID2", "INT NULL" },
+                { "SecondaryOperator2", "NVARCHAR(255) NULL" },
+                { "SurveillanceName", "NVARCHAR(250) NULL" },
                 { "DivisionId", "BIGINT NULL" },
                 { "DivisionName", "NVARCHAR(255) NULL" },
                 { "FourthOperatorId", "NVARCHAR(255) NULL" },
